@@ -1,5 +1,6 @@
 import React from 'react';
 import ReturnHome from './ReturnHome';
+import Yo from '../assets/Yo.jpg';
 
 function About({ tecnoLogos }) {
   return (
@@ -16,13 +17,17 @@ function About({ tecnoLogos }) {
         </div>
         {/* Grid 2 */}
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-6">
-          <div className="md:text-right text-4xl font-bold">
-            <p className="mb-6">
+          <div className="md:text-right text-4xl font-bold  ">
+            <p className="pb-6">
               Soy Bruno Bohlmann <br /> Full Stack Developer <br />
             </p>
-            <span className="text-2xl text-gold">
-              Y quiero dejar mi huella en el mundo IT
-            </span>
+            <div className="flex justify-center">
+              <img
+                src={Yo}
+                alt="YoImg"
+                className="h-[200px] w-[200px] rounded-full object-cover"
+              />
+            </div>
           </div>
 
           <div>

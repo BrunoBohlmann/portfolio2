@@ -30,7 +30,8 @@ export const works = [
     details:
       'Este proyecto es una SPA (single page application) en la que se utilizaron tecnologías de Front-End como React Redux CSS HTML y de Back-End como Express Node Sequelize para mostrar un listado de pokemones provenientes de la API: pokeapi.co (una API bastante enredada 😅) y también poder crear los nuestros guardándolos en una base de datos de PostgreSQL Estos pokemones se pueden filtrar por distintas características buscar por su nombre y hasta acceder a los detalles de cada uno',
     photo: pokeApi,
-    link: 'https://github.com/BrunoBohlmann/PI-BrunoBohlmann'
+    link: 'https://github.com/BrunoBohlmann/PI-BrunoBohlmann',
+    description: 'SPA Front-End y Back-End que muestra pokemones'
   },
   {
     name: 'E-commerce',
@@ -38,7 +39,8 @@ export const works = [
     details:
       'Desarrollo en equipo de una tienda virtual de prendas de ropa. La página fue creada con las siguientes tecnologías: React, Redux, Bootstrap, Node, Express, Sequelize, PostgreSQL, Javascript . El usuario puede iniciar sesión usando su correo electrónico o Google, puede añadir, eliminar y modificar productos del carrito de compras. En adición a eso, puede comprar productos y dejar reseñas de los mismos. La página cuenta con un perfil para administradores, en el que se pueden cambiar los estados de las ordenes, eliminar usuarios o bloquearlos; también puede añadir nuevas prendas, editar o eliminar las que ya existen.',
     photo: ecommerce,
-    link: 'https://e-commerce-g7-1.vercel.app/'
+    link: 'https://e-commerce-g7-1.vercel.app/',
+    description: 'Ecommerce Full-Stack en grupo'
   },
   {
     name: 'MoviesApp',
@@ -46,6 +48,7 @@ export const works = [
     details:
       'Esta es una pagina básica realizada para una entrevista en Powtoon, en la que se utilizaron unicamente tecnologías de Front-End para generar una App capaz de mostrar, filtrar, buscar y detallar movies provenientes de la API: omdbapi.com',
     photo: moviesApp,
-    link: 'https://github.com/BrunoBohlmann/movies-1'
+    link: 'https://github.com/BrunoBohlmann/movies-1',
+    description: 'SPA Front-End. Datos de TMDB API'
   }
 ];

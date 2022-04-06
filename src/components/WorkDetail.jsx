@@ -7,7 +7,7 @@ function WorkDetail({ works }) {
   const work = works[id];
 
   return (
-    <div className="h-screen flex items-center justify-center pt-10">
+    <div className="h-screen flex items-center justify-center">
       <div className="relative h-full w-full">
         {/* Background Image */}
         <img
@@ -17,7 +17,7 @@ function WorkDetail({ works }) {
         />
 
         {/* Content */}
-        <div className="absolute w-full h-full text-black px-20 bottom-0 bg-gradient-to-b from-white/95 to-white/95 flex flex-col items-center justify-center text-center">
+        <div className="pt-10 absolute w-full h-full text-black px-20 bottom-0 bg-gradient-to-b from-white/90 to-gold/90 flex flex-col items-center justify-center text-center">
           <ReturnHome />
           {/* Title */}
           <p className="font-bold px-4 md:px-14 mt-3 text-sm md:text-4xl">
@@ -32,7 +32,7 @@ function WorkDetail({ works }) {
               href={work.link}
               target="_blank"
               rel="noreferrer"
-              className="border-2 hover:bg-gold hover:border-gold px-8 py-3 my-6 mx-auto cursor-pointer"
+              className="border-2 border-gray-600 hover:text-white font-bold hover:bg-gold hover:border-gold px-8 py-3 my-6 mx-auto cursor-pointer"
             >
               Demo / Code
             </a>

@@ -42,7 +42,7 @@ function About({ tecnoLogos }) {
               como para subirlo o mostrarlo. Dije adios a ese miedo, y aqui esta
               la prueba de ello. Espero te guste!
               <br /> <br />
-              <strong>Si sos recruiter espero un mensaje ;)</strong>
+              <strong>Espero tu mensaje ;)</strong>
             </p>
           </div>
         </div>

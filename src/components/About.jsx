@@ -4,13 +4,13 @@ import Yo from '../assets/Yo.jpg';
 
 function About({ tecnoLogos }) {
   return (
-    <div className="h-full w-full md:h-screen text-black pt-20 md:pt-0">
-      <div className="flex flex-col justify-center items-center w-full h-screen">
+    <div className="h-full w-full md:h-screen text-black pt-10 md:pt-0">
+      <div className="flex flex-col justify-center items-center w-full h-full pt-20">
         <ReturnHome />
         {/* Grid 1 */}
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8 mb-5 pl-4">
-          <div className="md:text-right pb-8">
-            <p className="text-4xl font-bold inline border-b-[2px] border-gold">
+          <div className="md:text-right pb-8 col-span-full md:col-span-1">
+            <p className="md:text-right text-4xl font-bold inline border-b-[2px] border-gold">
               Sobre mi
             </p>
           </div>
@@ -21,17 +21,17 @@ function About({ tecnoLogos }) {
             <p className="pb-6">
               Soy Bruno Bohlmann <br /> Full Stack Developer <br />
             </p>
-            <div className="flex justify-center">
+            <div className="flex md:justify-center justify-start">
               <img
                 src={Yo}
                 alt="YoImg"
-                className="h-[200px] w-[200px] rounded-full object-cover"
+                className="h-[200px] w-[200px] md:rounded-full rounded-none object-cover"
               />
             </div>
           </div>
 
           <div>
-            <p className="text-gray-700">
+            <p className="text-gray-700 mb-10">
               Tengo 19 años. Soy de <strong>Argentina</strong> y soy un
               apasionado de la tecnologia, ciencia y la programacion, obvio
               <br />

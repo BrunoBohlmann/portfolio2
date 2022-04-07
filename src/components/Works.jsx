@@ -4,7 +4,7 @@ import ReturnHome from './ReturnHome';
 
 function Works({ works }) {
   return (
-    <div className="h-screen w-full pt-10 md:pt-0">
+    <div className="h-full w-full pt-20">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         {/* Title y about projects */}
         <ReturnHome />

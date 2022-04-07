@@ -7,7 +7,7 @@ function NavBarMobile({ nav, handleNav }) {
     { name: 'Home', path: '/' },
     { name: 'Sobre mi', path: '/about' },
     { name: 'Proyectos', path: '/projects' },
-    { name: 'Contacto', path: '/contacto' }
+    { name: 'Contacto', path: '/contact' }
   ];
   return (
     <div className="fixed w-full md:hidden bg-white text-gray-700 p-8 flex justify-end items-center z-10">
